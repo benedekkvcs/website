@@ -278,7 +278,7 @@ html, body {
   }
 }
 
-@media screen and (min-width: 1301px) and (max-width: 1700px) {
+@media screen and (min-width: 1301px) and (max-width: 1920px) {
   .column, .column-reverse {
     font-size: 1.5rem;
     padding: 10px;
@@ -325,6 +325,7 @@ html, body {
     width: 200px;
   }
 }
+
 
 
 
