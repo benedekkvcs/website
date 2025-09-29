@@ -278,7 +278,7 @@ html, body {
   }
 }
 
-@media screen and (min-width: 1301px) and (max-width: 1500px) {
+@media screen and (min-width: 1301px) and (max-width: 1700px) {
   .column, .column-reverse {
     font-size: 1.5rem;
     padding: 10px;
@@ -292,54 +292,6 @@ html, body {
   .column p,
   .column-reverse p {
     font-size: 1.5rem;
-    line-height: 1;
-  }
-
-  .column .moon-pic {
-    width: 280px;
-  }
-
-  .car-img {
-    width: 60px;
-  }
-
-  .hide-bg {
-    width: 180px;
-  }
-
-  .road-track-img {
-    width: 60px;
-  }
-
-  .event-box {
-    font-size: 14px;
-    max-width: 150px;
-    padding: 0.6rem;
-  }
-
-  .fishing-img {
-    width: 260px;
-  }
-
-  .column-reverse img {
-    width: 200px;
-  }
-}
-
-@media screen and (min-width: 1501px) and (max-width: 1700px) {
-  .column, .column-reverse {
-    font-size: 1.6rem;
-    padding: 10px;
-  }
-
-  .column h1,
-  .column-reverse h1 {
-    font-size: 1.9rem;
-  }
-
-  .column p,
-  .column-reverse p {
-    font-size: 1.6rem;
     line-height: 1;
   }
 
