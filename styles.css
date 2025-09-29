@@ -278,7 +278,7 @@ html, body {
   }
 }
 
-@media screen and (min-width: 1301px) and (max-width: 1920px) {
+@media screen and (min-width: 1301px) and (max-width: 1620px) {
   .column, .column-reverse {
     font-size: 1.5rem;
     padding: 10px;
@@ -292,7 +292,55 @@ html, body {
   .column p,
   .column-reverse p {
     font-size: 1.5rem;
-    line-height: 1;
+    line-height: 1.1;
+  }
+
+  .column .moon-pic {
+    width: 260px;
+  }
+
+  .car-img {
+    width: 60px;
+  }
+
+  .hide-bg {
+    width: 180px;
+  }
+
+  .road-track-img {
+    width: 70px;
+  }
+
+  .event-box {
+    font-size: 14px;
+    max-width: 150px;
+    padding: 0.6rem;
+  }
+
+  .fishing-img {
+    width: 220px;
+  }
+
+  .column-reverse img {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1621px) and (max-width: 1700px) {
+  .column, .column-reverse {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .column h1,
+  .column-reverse h1 {
+    font-size: 1.8rem;
+  }
+
+  .column p,
+  .column-reverse p {
+    font-size: 1.5rem;
+    line-height: 1.1;
   }
 
   .column .moon-pic {
@@ -308,7 +356,7 @@ html, body {
   }
 
   .road-track-img {
-    width: 60px;
+    width: 80px;
   }
 
   .event-box {
@@ -318,13 +366,62 @@ html, body {
   }
 
   .fishing-img {
-    width: 260px;
+    width: 240px;
   }
 
   .column-reverse img {
     width: 200px;
   }
 }
+
+@media screen and (min-width: 1701px) and (max-width: 1860px) {
+  .column, .column-reverse {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .column h1,
+  .column-reverse h1 {
+    font-size: 1.9rem;
+  }
+
+  .column p,
+  .column-reverse p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .column .moon-pic {
+    width: 280px;
+  }
+
+  .car-img {
+    width: 70px;
+  }
+
+  .hide-bg {
+    width: 180px;
+  }
+
+  .road-track-img {
+    width: 100px;
+  }
+
+  .event-box {
+    font-size: 17px;
+    max-width: 190px;
+    padding: 0.9rem;
+  }
+
+  .fishing-img {
+    width: 240px;
+  }
+
+  .column-reverse img {
+    width: 200px;
+  }
+}
+
 
 
 
