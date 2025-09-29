@@ -182,7 +182,7 @@ html, body {
 }
 
 /* Reszponzivitás kisebb képernyőre */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1700px) {
   .column, .column-reverse {
     font-size: 1.6rem;
     padding: 10px;
@@ -225,4 +225,5 @@ html, body {
     width: 200px;s
   }
 }
+
 
