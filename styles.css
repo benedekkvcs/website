@@ -74,7 +74,7 @@ html, body {
 .column h1 {
   font-family: 'Oswald', serif;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 /* Szöveg (p) */
@@ -89,15 +89,11 @@ html, body {
     width: 300px;
 }
 
-.column .star-pic {
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    width: 40px;
-}
 
 .column-reverse h1 {
   font-family: 'Oswald', serif;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 /* Szöveg (p) */
@@ -421,8 +417,4 @@ html, body {
     width: 200px;
   }
 }
-
-
-
-
 
