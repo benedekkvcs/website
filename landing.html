@@ -202,6 +202,10 @@ Sajnos nem vizsgáztam le időben és kikellet hagynom az első napot, azonban e
         const swiper = new Swiper('.swiper-container', {
         direction: 'vertical',
         mousewheel: true,
+        keyboard: {
+            enabled: true,
+            onlyInViewport: true, // (opcionális: csak akkor működik, ha látható)
+        },
         slidesPerView: 1,
         spaceBetween: 0,
         pagination: {
@@ -244,3 +248,4 @@ Sajnos nem vizsgáztam le időben és kikellet hagynom az első napot, azonban e
 
 </body>
 </html>
+
